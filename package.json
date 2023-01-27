@@ -15,17 +15,25 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mdx-js/react": "^2.2.1",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^5.5.0",
     "gatsby-plugin-image": "^3.5.0",
     "gatsby-plugin-mdx": "^5.5.0",
     "gatsby-plugin-sharp": "^5.5.0",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-plugin-styled-components": "^6.5.0",
+    "gatsby-remark-images": "^7.5.0",
     "gatsby-source-filesystem": "^5.5.0",
+    "gatsby-transformer-remark": "^6.5.0",
     "gatsby-transformer-sharp": "^5.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "react-helmet": "^6.1.0",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^5.3.6",
+    "styled-media-query": "^2.1.2"
   }
 }

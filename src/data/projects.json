@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Official Author Website",
+    "path": "dovalfon",
+    "description": "The official website of a bestselling crime author",
+    "technologies": "Ruby on Rails API, React.js and Heroku",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovallfon-homepage_sc8gr2.png",
+      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovalfon-interviewspage_mlanfb.png",
+      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovallfon-homepage_sc8gr2.png",
+      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovalfon-biopage_vdgk6g.png"
+    ]
+  },
+  {
+    "title": "Technological Company",
+    "path": "galsys",
+    "description": "",
+    "technologies": "React.js, Gatsby, Netifly",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1592168287/litallevin/Screenshot_2020-06-14_at_22.44.25_yghobe.png"
+    ]
+  },
+  {
+    "title": "Designer Portfolio",
+    "path": "meravperez",
+    "description": "",
+    "technologies": "Wordpress",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1592168493/litallevin/merav-fullscreen_jiyvky.png"
+    ]
+  },
+  {
+    "title": "Art Festival",
+    "path": "intimadance",
+    "description": "",
+    "technologies": "HTML, CSS, Javascript, FTP",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1592168461/litallevin/intima-desktop-1_vihhcz.png"
+    ]
+  }
+]

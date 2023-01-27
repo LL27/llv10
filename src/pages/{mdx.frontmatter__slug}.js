@@ -40,7 +40,7 @@ const MarkdownContent = styled.div`
   }
 `
 
-const ProjectTemplate = ({ data }) => { 
+const ProjectTemplate = ({ data, html }) => { 
     return (
       <Layout>
         <Seo title={data.mdx.frontmatter.title} 
@@ -51,7 +51,7 @@ const ProjectTemplate = ({ data }) => {
         <MarkedHeader>{data.mdx.frontmatter.title}</MarkedHeader>
         <p>{data.mdx.frontmatter.description}</p>
          <p>Main technologies: {data.mdx.frontmatter.technologies}</p>
-        <MarkdownContent dangerouslySetInnerHTML={{ __html: data.mdx.html }} />
+        <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
       </Content>
       </Layout>
     );
@@ -69,6 +69,7 @@ export const query = graphql`
       }
       excerpt(pruneLength: 10)
       id
+      body
     }
   }
 `;

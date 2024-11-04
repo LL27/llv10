@@ -50,12 +50,12 @@ const Menu = () => {
         <MenuLink href="https://www.linkedin.com/in/lital-levin-4a989010/">linkedin</MenuLink>
       </MenuItem>
       <MenuItem>
-       <MenuLink href="mailto:lital@litallevin.com">
+       <MenuLink href="mailto:litalonet@gmail.com">
 email me
 </MenuLink>
       </MenuItem>
       <MenuItem>
-        <MenuLink href="https://github.com/LL27/llv9">source</MenuLink>
+        <MenuLink href="https://github.com/LL27/llv10">source</MenuLink>
       </MenuItem>
     </MenuList>
   )

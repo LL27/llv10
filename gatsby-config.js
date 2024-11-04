@@ -44,7 +44,6 @@ module.exports = {
     },
     __key: "projects"
   },
-  "gatsby-plugin-mdx",
   `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-transformer-remark`,

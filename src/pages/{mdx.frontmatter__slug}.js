@@ -3,6 +3,7 @@ import * as React from "react";
 import Seo from "../components/seo";
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
+import SinglePostGallery from "../components/SinglePostGallery"
 import Header from "../components/header"
 
 
@@ -52,6 +53,7 @@ const ProjectTemplate = ({ data, html }) => {
         <p>{data.mdx.frontmatter.description}</p>
          <p>Main technologies: {data.mdx.frontmatter.technologies}</p>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
+        <SinglePostGallery images={data.mdx.frontmatter.images}/>
       </Content>
       </Layout>
     );
@@ -66,6 +68,7 @@ export const query = graphql`
         technologies
         path
         description
+        images
       }
       excerpt(pruneLength: 10)
       id

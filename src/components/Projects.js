@@ -77,7 +77,6 @@ class Projects extends React.Component {
                 alternatingContainer[index % alternatingContainer.length]
               }
             >
-
               <ProjectImage>
                 <img
                   src={node.images[0]}

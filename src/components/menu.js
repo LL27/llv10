@@ -4,6 +4,8 @@ import styled from "@emotion/styled"
 import { css } from "@emotion/react"
 import media from "styled-media-query"
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const MenuList = styled.div`
   list-style: none;
@@ -41,12 +43,15 @@ const MenuLink = styled.a`
     text-decoration: underline;
 `
 
+
+
 const Menu = () => {
   return (
     <MenuList>
-      <MenuItem onClick={() => scrollTo('#works')}>
-        works
+      <MenuItem>
+        <MenuLink href="/portfolio">works</MenuLink>
       </MenuItem>
+
       <MenuItem>
         <MenuLink href="https://www.linkedin.com/in/lital-levin-4a989010/">linkedin</MenuLink>
       </MenuItem>

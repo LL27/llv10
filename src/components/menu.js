@@ -49,7 +49,7 @@ const Menu = () => {
   return (
     <MenuList>
       <MenuItem>
-        <MenuLink href="/portfolio">works</MenuLink>
+        <Link className="menu-link" activeStyle={{ fontWeight: "bold", color: "white", background: "black"}} to="/portfolio">works</Link>
       </MenuItem>
 
       <MenuItem>

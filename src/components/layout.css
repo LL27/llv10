@@ -643,3 +643,10 @@ a::selection {
     font-size: 100%;
   }
 }
+
+.menu-link {
+  color: black;
+  text-decoration: none;
+  
+
+}

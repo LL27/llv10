@@ -40,6 +40,7 @@ const MenuLink = styled.a`
   }&:hover {
     text-decoration: underline;
 `
+
 const Menu = () => {
   return (
     <MenuList>

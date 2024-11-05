@@ -1,32 +1,29 @@
 [
   {
-    "title": "Official Author Website",
+    "title": "Author Website",
     "path": "dovalfon",
     "description": "The official website of a bestselling crime author",
     "technologies": "Ruby on Rails API, React.js and Heroku",
     "images": [
-      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovallfon-homepage_sc8gr2.png",
-      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovalfon-interviewspage_mlanfb.png",
-      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovallfon-homepage_sc8gr2.png",
-      "https://res.cloudinary.com/litall/image/upload/v1591986046/litallevin/dovalfon-biopage_vdgk6g.png"
+      "https://res.cloudinary.com/litall/image/upload/v1591986046/website%20photos/dovalfon-interviewspage_mlanfb.png"
     ]
   },
   {
-    "title": "Technological Company",
+    "title": "Technological Agency",
     "path": "galsys",
-    "description": "",
+    "description": "A visitation card website",
     "technologies": "React.js, Gatsby, Netifly",
     "images": [
-      "https://res.cloudinary.com/litall/image/upload/v1592168287/litallevin/Screenshot_2020-06-14_at_22.44.25_yghobe.png"
+      "https://res.cloudinary.com/litall/image/upload/v1730817257/website%20photos/galsys_laojgm.png"
     ]
   },
   {
     "title": "Designer Portfolio",
     "path": "meravperez",
     "description": "",
-    "technologies": "Wordpress",
+    "technologies": "Wordpress, Javascript",
     "images": [
-      "https://res.cloudinary.com/litall/image/upload/v1592168493/litallevin/merav-fullscreen_jiyvky.png"
+      "https://res.cloudinary.com/litall/image/upload/v1592168493/website%20photos/merav-fullscreen_jiyvky.png"
     ]
   },
   {
@@ -35,7 +32,43 @@
     "description": "",
     "technologies": "HTML, CSS, Javascript, FTP",
     "images": [
-      "https://res.cloudinary.com/litall/image/upload/v1592168461/litallevin/intima-desktop-1_vihhcz.png"
+      "https://res.cloudinary.com/litall/image/upload/v1592168461/website%20photos/intima-desktop-2_ih6z7w.png"
+    ]
+  },
+  {
+    "title": "Documentarist",
+    "path": "histoiredunevie",
+    "description": "",
+    "technologies": "Wordpress",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1730804378/website%20photos/hdv-realisations_nopnrg.png"
+    ]
+  },
+  {
+    "title": "Immigration Lawyer",
+    "path": "naikberthelot",
+    "description": "",
+    "technologies": "Wordpress",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1730816959/website%20photos/naik-1_ie8bgy.png"
+    ]
+  },
+  {
+    "title": "Parental Guide",
+    "path": "ofrigrynbaum",
+    "description": "",
+    "technologies": "Wordpress",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1730816596/website%20photos/ofri-1_u1wmeq.png"
+    ]
+  },
+  {
+    "title": "Photo Lab",
+    "path": "photoexpression",
+    "description": "",
+    "technologies": "React, Gatsby, Netlify",
+    "images": [
+      "https://res.cloudinary.com/litall/image/upload/v1730815907/website%20photos/photoex-1.png"
     ]
   }
 ]

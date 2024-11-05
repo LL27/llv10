@@ -39,7 +39,7 @@ const ProjectImage = styled.div`
 const ProjectText = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 1rem 0rem;
@@ -85,7 +85,6 @@ class Projects extends React.Component {
                     margin-bottom: 0;
                     border-radius: 20px;
                     border: 18px solid hsla(0, 0%, 0%, 0.04);
-
                     box-shadow: 0 0 1px 0px hsla(0, 0%, 0%, 0.4);
                   `}
                 />
@@ -94,7 +93,7 @@ class Projects extends React.Component {
               <ProjectText>
                 <ArticleHeader>{node.title}</ArticleHeader>
                 <Par>
-                  <strong>Main technologies:</strong> {node.technologies}
+                  <strong>Technologies:</strong> {node.technologies}
                 </Par>
               </ProjectText>
             </ProjectContainer>
